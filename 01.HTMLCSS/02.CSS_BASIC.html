@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Miscellaneous document metadata -->
+        <title>Start Fit: The Beginning of Fitness</title>
+        <style>
+            /* Apply styles with selectors and properties like this. */
+            #main-title { color: orange; }
+            .sub-title { font-size: 24px; }
+            .box {background-color: steelblue; padding: 15px; margin-bottom: 20px; border-radius: 5px;}
+            .box > a {color: white;}
+            .box > p {color: lightblue;} 
+            /* You can use the child combinator (>) to target direct children without extra classes, as above. */
+        </style>
+    </head>
+    <body>
+        <!-- Content shown on the page -->
+        <h1 id="main-title">Start Fit — The Start of Your Fitness Journey </h1> <!-- h1 marks the most important heading -->
+        <div class="box">
+            <h1 class="sub-title">Build the Basics! Full-Body Routine</h1>
+            <p>New to the gym? Welcome, gym newbie</p> <!-- p is a paragraph -->
+            <a href="https://www.naver.com">Start now</a><!-- a is a link -->
+        </div>
+
+        <div class="box">
+            <h1 class="sub-title">Beyond Beginner! 3-Day Split</h1>
+            <p>Been working out a bit? Come on in</p> <!-- p is a paragraph -->
+            <a href="https://www.naver.com">Start now</a><!-- a is a link -->
+        </div>
+
+        <div class="box">
+            <h1 class="sub-title">Set your own fitness goals</h1>
+            <input type="text" placeholder="Enter your goal"> <!-- input is a text field -->
+            <button onclick="alert(`Let's get it!`)">Save</button> <!-- button is a clickable control -->
+            <ul> <!-- ul is an unordered list -->
+                <li><a href="#">Get jacked with weights!</a></li>
+                <li><a href="#">Cardio for fat loss!</a></li>
+                <li><a href="#">Pilates for flexibility and core</a></li> <!-- li is a list item -->
+            </ul>
+        </div>
+    </body>
+</html>
